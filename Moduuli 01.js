@@ -1,0 +1,1 @@
+document.writeln("I'm printing to console!");
