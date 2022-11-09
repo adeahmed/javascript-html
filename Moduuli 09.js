@@ -5,8 +5,16 @@ for (let i = 2; i < number; i++) {
     if (number % i === 0) {
         isPrime = false;
     }
-    console.log(i);
+    
 }
+
+if (isPrime) {
+    console.log("Prime");
+}   else {
+    console.log("Not prime");
+}       
+
+document.body.textContent= ("The number " + number + " is " + (isPrime ? "prime" : "not prime"));
 
 
 
