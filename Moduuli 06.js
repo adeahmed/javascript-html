@@ -7,12 +7,14 @@ if (answer == true) {
 
  }
  else{
-    document.write(Math.sqrt(luku))
+   document.body.textContent = `The square root of ${luku} is ${Math.sqrt(luku)}`;  
+
  }
 }
 
 else{
-    document.write("The square root is not calculated.")
+   document.body.textContent = `The square root is not calculated.`
+    
 }
 
 
