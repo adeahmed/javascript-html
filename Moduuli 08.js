@@ -10,8 +10,8 @@ for (let i = yearStr; i < yearEnd; i++) {
         document.querySelector("#velo").append(ele)
        
     }
-}
-let id = document.querySelector("#id")
+}   
+document.body.textContent = `${i} `
 
 
 
