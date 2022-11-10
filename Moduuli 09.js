@@ -4,17 +4,17 @@ let isPrime = true;
 for (let i = 2; i < number; i++) {
     if (number % i === 0) {
         isPrime = false;
+        break;
     }
     
 }
 
 if (isPrime) {
-    console.log("Prime");
+    document.body.textContent = `${number} is prime`;
 }   else {
-    console.log("Not prime");
+    document.body.textContent = `${number} isnt prime `
 }       
 
-document.body.textContent= ("The number " + number + " is " + (isPrime ? "prime" : "not prime"));
 
 
 
